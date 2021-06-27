@@ -1,0 +1,7 @@
+Country [1]
+Region[2] 
+Population[3]
+Area[4](square mile)
+Pop[5]
+Density[6] (per square mile)
+Phones (per 1000)[12].
