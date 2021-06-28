@@ -5,19 +5,22 @@
 #  for aline in lines:
 #     print (aline)
 #display_info()
-def repeat_print():
-  r = open("Requested Data.txt","r")
-  read = r.readlines()
-  print(read())
+
+
+
+#def repeat_print():
+#  r = open("Requested Data.txt","r")
+#  read = r.readlines()
+#  print(read())
   
 
 
 
-def display_requested():
+#def display_requested():
 
 
 
-def display_all_info():
+def display_info():
   c = open("countries.txt","r")
   read =c.readlines()
   print (read[a])
