@@ -7,23 +7,11 @@
 #display_info()
 
 
-
-#def repeat_print():
-#  r = open("Requested Data.txt","r")
-#  read = r.readlines()
-#  print(read())
-  
-
-
-
-#def display_requested():
-
-
-
 def display_info():
   c = open("countries.txt","r")
-  read =c.readlines()
-  print (read[a])
+  lines = c.readlines()
+  list_line = lines[a].split(",")
+  print(list_line[0],list_line[1].strip(),list_line[2],list_line[3],list_line[4],list_line[10])
   
 #send out data Country [1], Region[2], Population[3], Area[4](square mile), Pop[5], Density[6] (per square mile), Phones (per 1000)[12].
 
